@@ -16,7 +16,7 @@ public class SimpleStackImplTest {
         st=new SimpleStackImpl();
     }
 
-     //Un commentaire répondant à l'éxigence #1
+     //Un commentaire répondant à l'éxigence #2
     @org.junit.Test
     public void testIsEmpty() throws Exception {
         assertTrue(st.isEmpty());
