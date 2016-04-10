@@ -19,8 +19,7 @@ public class SimpleStackImpl implements SimpleStack {
 
     @Override
     public void push(Item item) {
-
-           stack.push(item);
+        stack.push(item);
     }
 
     @Override
