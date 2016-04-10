@@ -6,28 +6,30 @@ import java.util.EmptyStackException;
  * Created by HP on 10/04/2016.
  */
 public class SimpleStackImpl implements SimpleStack {
+     Stack stack=new Stack();
     @Override
     public boolean isEmpty() {
-        return true;
+        return stack.isEmpty();
     }
 
     @Override
     public int getSize() {
-        return 0;
+        return stack.getSize();
     }
 
     @Override
     public void push(Item item) {
 
+           stack.push(item);
     }
 
     @Override
     public Item peek() throws EmptyStackException {
-        return null;
+        return stack.peek();
     }
 
     @Override
     public Item pop() throws EmptyStackException {
-        return null;
+        return stack.pop();
     }
 }
